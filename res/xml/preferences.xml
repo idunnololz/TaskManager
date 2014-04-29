@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_processes_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_system_apps"
+            android:summary="@string/pref_summary_show_system_apps"
+            android:title="@string/pref_title_show_system_apps" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="detailed_view"
+            android:summary="@string/pref_summary_detailed_view"
+            android:title="@string/pref_title_detailed_view" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_default_importance_filter"
+            android:dialogTitle="@string/pref_title_importance_filter"
+            android:entries="@array/pref_entries_importance_filter"
+            android:entryValues="@array/pref_values_importance_filter"
+            android:key="importance_filter"
+            android:title="@string/pref_title_importance_filter" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_processes_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hide_system_apps_on_apps_tab"
+            android:summary="@string/pref_summary_hide_system_apps"
+            android:title="@string/pref_title_hide_system_apps" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_default_sort_apps_by"
+            android:dialogTitle="@string/pref_title_sort_apps_by"
+            android:entries="@array/pref_entries_sort_apps_by"
+            android:entryValues="@array/pref_values_sort_apps_by"
+            android:key="sort_apps_by"
+            android:title="@string/pref_title_sort_apps_by" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

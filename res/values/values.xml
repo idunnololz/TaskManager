@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_values_importance_filter">
+        <item>100</item>
+        <item>130</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="pref_entries_importance_filter">
+        <item>@string/pref_entry_importance_filter_1</item>
+        <item>@string/pref_entry_importance_filter_2</item>
+        <item>@string/pref_entry_importance_filter_3</item>
+        <item>@string/pref_entry_importance_filter_4</item>
+        <item>@string/pref_entry_importance_filter_5</item>
+    </string-array>
+
+    <string name="pref_default_importance_filter">400</string>
+
+    <string-array name="pref_values_sort_apps_by">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_entries_sort_apps_by">
+        <item>@string/pref_entry_sort_apps_by_1</item>
+        <item>@string/pref_entry_sort_apps_by_2</item>
+    </string-array>
+
+    <string name="pref_default_sort_apps_by">0</string>
+
+</resources>

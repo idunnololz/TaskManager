@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Task Manager</string>
+    <string name="menu_settings">Settings</string>
+    
+    
+    <!-- Tab Titles -->
+    <string name="Processes">Processes</string>
+    <string name="Apps">Apps</string>
+    <string name="Device_Info">Device Info</string>
+    
+    <!-- Process Tab -->
+    <string name="Refresh">Refresh</string>
+    <string name="kill_all">Kill all</string>
+    <string name="ram_info">%1$dMB ram used. %2$dMB ram free.</string>  
+    
+    <!-- Apps Tab -->
+    <string name="Delete">Delete</string>
+    
+    <!-- Preferences -->
+    <string name="settings">Settings</string>
+    
+    <string name="pref_processes_title">Processes Tab</string>
+    <string name="pref_summary_show_system_apps">Displays system level applications in the processes tab.</string>
+    <string name="pref_title_show_system_apps">Show system apps</string>
+    <string name="pref_summary_detailed_view">Displays comprehensive information about each process.</string>
+    <string name="pref_title_detailed_view">Detailed view</string>
+    <string name="pref_title_importance_filter">Importance filter</string>
+    
+    <string name="pref_entry_importance_filter_1">Foreground apps</string>
+    <string name="pref_entry_importance_filter_2">Perceptible apps</string>
+    <string name="pref_entry_importance_filter_3">Visible apps</string>
+    <string name="pref_entry_importance_filter_4">Services</string>
+    <string name="pref_entry_importance_filter_5">Background apps</string>
+    
+    
+    <string name="pref_applications_title">Apps Tab</string>
+    <string name="pref_title_hide_system_apps">Hide system applications</string>
+    <string name="pref_summary_hide_system_apps">System level applications will not be shown in the apps tab.</string>
+    <string name="pref_title_sort_apps_by">Sort applications by</string>
+    
+    <string name="pref_entry_sort_apps_by_1">Don\'t sort</string>
+    <string name="pref_entry_sort_apps_by_2">Sort by name</string>
+
+</resources>
